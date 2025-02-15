@@ -4,4 +4,114 @@
     box-sizing: border-box;
     text-decoration: 0;
 }
+/* ==================HEADEEER STYLE!!!!============================ */
+.logo img{
+    width: 226px;
+    height: 49px;
+}
 
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 84px;
+    
+}
+
+.nav{
+    display: flex;
+    gap: 64px;
+}
+
+.nav a{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #262626;
+
+}
+
+.nav a:nth-child(1):hover,
+.nav a:nth-child(2):hover,
+.nav a:nth-child(3):hover,
+.nav a:nth-child(4):hover,
+.nav a:nth-child(5):hover {
+    background-color: #4CE0D7;
+    width: 143px;
+    height: 35px;
+    justify-content: center;
+    border-radius: 40px;
+}
+.search i{
+    display: flex;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    top: 3px;
+    left: 3px;
+    border-width: 1.5px;
+    
+
+}
+
+.search i{
+    background-color: #4CE0D7;
+    width: 47px;
+    height: 47px;
+    border-radius:30px;
+    justify-content: center;
+    
+}
+
+/* ===========================SECTIOON STYLE!!!!!!!========================= */
+
+.background{
+    margin: 0 auto;
+    max-width: 1272px;
+    height: 559px;
+    background-image: url(./photos/1photo.png);
+    border-radius: 20px;
+    padding-top: 218px;
+    padding-left: 57px;
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+    
+}
+
+.background{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background h3{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.background h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.background p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 490px;
+}
+
+.background span{
+    font-weight: 700;
+    font-size: 46px;
+    background: linear-gradient(to right, #4CE0D7, #8BA9F4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
