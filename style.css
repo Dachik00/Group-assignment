@@ -116,6 +116,18 @@
     -webkit-text-fill-color: transparent;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* =====================SECOND TRENDING======================== */
 .trending-second {
     max-width: 1204px;
@@ -146,6 +158,5 @@
     left: 34px; 
     color: white;
     font-size: 24px;
-    font-weight: bold;
     border-radius: 5px;
 }
