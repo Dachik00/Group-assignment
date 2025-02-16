@@ -34,7 +34,7 @@
     line-height: 21px;
     letter-spacing: 0%;
     color: #262626;
-
+    transition: padding 0.3s ease; 
 }
 
 .nav a:nth-child(1):hover,
@@ -43,10 +43,10 @@
 .nav a:nth-child(4):hover,
 .nav a:nth-child(5):hover {
     background-color: #4CE0D7;
-    width: 143px;
-    height: 35px;
-    justify-content: center;
+    transform: scale(1.05);
+    padding: 8px 16px;
     border-radius: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .search i{
     display: flex;
@@ -66,8 +66,15 @@
     height: 47px;
     border-radius:30px;
     justify-content: center;
-    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-size: 20px;
+} 
+    .search i:hover {
+        transform: scale(1.1);
+        cursor: pointer;
 }
+
+
 
 /* ===========================SECTIOON STYLE!!!!!!!========================= */
 
@@ -114,4 +121,78 @@
     background: linear-gradient(to right, #4CE0D7, #8BA9F4);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+
+/* =========================== FOOTER STYLE ========================== */
+footer {
+    width: 100%;
+    background: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.footer-left img {
+    width: 180px; 
+    height: auto;
+}
+
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.footer-text {
+    font-size: 26px; 
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 12px; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    background-color: #86E3DF;
+    color: white;
+    width: 28px; 
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px; 
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #5cc2be;
+}
+
+
+.footer-bottom {
+    text-align: left;
+    font-size: 14px;
+    padding: 15px 50px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
 }
