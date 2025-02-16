@@ -115,3 +115,37 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* =====================SECOND TRENDING======================== */
+.trending-second {
+    max-width: 1204px;
+    height: 368px;
+    margin: 0 auto;
+    padding-top: 88px;
+    position: relative;
+}
+
+.trending-photo {
+    position: relative;
+    
+}
+
+.trending-photo img {
+    width: 547px;
+    height: 367px;
+    border-radius: 20px;
+    display: block;
+}
+
+.trending-title {
+    background: #262626;
+    padding: 9px 51px;
+    border-radius: 40px;
+    position: absolute;
+    top: 25px; 
+    left: 34px; 
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+}
